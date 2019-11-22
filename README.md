@@ -6,6 +6,6 @@ You can build this image from your Docker environment and push to Dockerhub in a
 
 ```
 git clone https://github.com/cppdigital/solr-hyraxschema
-docker build . -t cppdigitallibrary/solr:latest
-docker push cppdigitallibrary/solr:latest
+docker build . -t cppdigitallibrary/solr:<tag>
+docker push cppdigitallibrary/solr:<tag>
 ```
