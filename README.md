@@ -1,6 +1,6 @@
 # Solr-HyraxSchema
 
-Dockerfile copies the config directory to the Solr7.7 base image and precreates the blacklight-core.
+The config directory contains the schema documents for Hyrax. Dockerfile copies the config directory to the Solr7.7 base image and precreates the blacklight-core for use with Vesalius.
 
 You can build this image from your Docker environment and push to Dockerhub in a few steps.
 
